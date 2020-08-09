@@ -1,0 +1,21 @@
+<h1>Table Product</h1>
+<div class="forTable">
+   <table class="table table-hover">
+      <thead>
+         <tr>
+            <th>#ID</th>
+            <th>Name</th>
+            <th>Price</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr *ngFor="let product of productsList" id="{{product.id}}">
+            <th>{{product.id}}</th>
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <div class="forSPan" (click)="delete(product)"></div>
+         </tr>
+         <tr>
+      </tbody>
+   </table>
+</div>

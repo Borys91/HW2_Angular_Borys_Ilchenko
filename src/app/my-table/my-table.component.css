@@ -1,0 +1,28 @@
+h1{
+   text-align: center;
+   padding-top: 30px;
+}
+.forTable{
+   width: 500px;
+   border: 2px solid sandybrown;
+   margin: 0 auto;
+   background-color: silver;
+}
+
+
+.forSPan{
+   position: relative;
+   width: 30px;
+   height: 30px;
+   top:10px;
+   left:25%;
+   background: url("../../assets/images/delete1.png") center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   cursor: pointer;
+   
+}
+.forSPan:active{
+  
+   top:12px;
+ }
